@@ -1,0 +1,70 @@
+#!/bin/sh
+
+# This hook is called after a commit is made.
+# It 
+#   * creates documentation
+#   * runs interrograte to check docstring coverage
+# writes reports and summaries to the REPORTING_DIR directory
+
+
+SOURCE_DIR=src/pedata
+REPORTING_DIR=code_health
+
+DOC_DIR=$SOURCE_DIR/docs/
+DOC_SOURCE_DIR=$SOURCE_DIR/docs/source
+DOC_BUILD_DIR=$SOURCE_DIR/docs/build
+
+TEST_COV=$REPORTING_DIR/test_coverage
+TEST_COV_XML=$TEST_COV.xml
+TEST_REPORT=$REPORTING_DIR/test_report
+TEST_REPORT_HTML=$TEST_REPORT.html
+TEST_REPORT_XML=$REPORTING_DIR/test_report.xml
+DOC_COV=$REPORTING_DIR/docstring_coverage.txt
+
+SUMMARY_FILE=$REPORTING_DIR/summary.txt
+SUMMARY_FILE_COPY_PASTE=$REPORTING_DIR/summary_copy_paste.txt
+
+function get_test_coverage_rate() {
+    #local line_rate=$(grep '<coverage.*line-rate="[0-1].[0-9]*"' $TEST_COV_XML |grep -o 'line-rate="[0-1].[0-9]*"'| cut -d '"' -f 2)
+    local line_rate=$(xpath -e "string(/coverage/attribute::line-rate)" -q $TEST_COV_XML)
+    echo $line_rate    
+}
+
+function get_doc_coverage_rate() {
+    local function_rate=$(tail -n 1 $REPORTING_DIR/docstring_coverage.txt |grep -o 'actual.*%' | grep -o "[0-9.]*"|head -n 1)
+    python -c "print($function_rate / 100)"
+}
+    
+
+function get_test_success_rate() {
+    local failures=$(xpath -e "string(/testsuites/testsuite/attribute::failures)" -q $TEST_REPORT_XML)
+    local errors=$(xpath -e "string(/testsuites/testsuite/attribute::errors)" -q $TEST_REPORT_XML)
+    local skipped=$(xpath -e "string(/testsuites/testsuite/attribute::skipped)" -q $TEST_REPORT_XML)
+    local total=$(xpath -e "string(/testsuites/testsuite/attribute::tests)" -q $TEST_REPORT_XML)
+    python -c "print(($total - $failures - $errors - $skipped)/$total)"
+}
+
+function write_summary() {
+    local test_coverage_rate=$(get_test_coverage_rate)
+    local doc_coverage_rate=$(get_doc_coverage_rate)
+    local test_success_rate=$(get_test_success_rate)
+    echo "Test coverage rate: $test_coverage_rate" > $SUMMARY_FILE
+    echo "Test success rate: $test_success_rate" >> $SUMMARY_FILE
+    echo "Docstring coverage rate: $doc_coverage_rate" >> $SUMMARY_FILE
+
+    echo "Test coverage rate, Test success rate, Docstring coverage rate, One per line for easy copy-and-pasting" > $SUMMARY_FILE_COPY_PASTE
+    echo $test_coverage_rate >> $SUMMARY_FILE_COPY_PASTE
+    echo $test_success_rate >> $SUMMARY_FILE_COPY_PASTE
+    echo $doc_coverage_rate >> $SUMMARY_FILE_COPY_PASTE
+}
+
+function update_documentation(){
+    echo "Generating documentation"
+    sphinx-apidoc -o $DOC_SOURCE_DIR $DOC_DIR   
+    sphinx-build -M html $DOC_SOURCE_DIR $DOC_BUILD_DIR
+}
+
+interrogate -o $DOC_COV -M -S -vv $SOURCE_DIR
+
+update_documentation
+write_summary

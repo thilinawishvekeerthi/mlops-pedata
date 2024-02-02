@@ -1,0 +1,32 @@
+repos:
+# -   repo: https://github.com/psf/black
+#     rev: 22.10.0
+#     hooks:
+#     -   id: black
+#         disabled: true
+# -   repo: https://github.com/astral-sh/ruff-pre-commit
+#     rev: v0.1.14
+#     hooks:
+#     -  id: ruff
+#        types_or: [ python, pyi, jupyter ]
+#        args: [ --fix ]
+#     -  id: ruff-format
+#        types_or: [ python, pyi, jupyter ]
+# # use only if run.sh is precent and need detailed pytest reports to generate
+# # -   repo: local
+# #     hooks:
+# #     - id: pytest
+# #       name: pytest
+# #       stages: [pre-push] #stage
+# #       entry: ./run.sh  
+# #       language: system
+# # connot run both pytest need to choose one
+-   repo: local
+    hooks:
+    - id: pytest
+      name: pytest
+    #   stages: [pre-push] #stage
+      entry: conda list
+      language: system
+      pass_filenames: false
+      always_run: true

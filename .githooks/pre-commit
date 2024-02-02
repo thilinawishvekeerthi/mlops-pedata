@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+from __future__ import with_statement, print_function
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+
+
+overrides = ["-l", "90"]
+
+
+def system(*args, **kwargs):
+    kwargs.setdefault("stdout", subprocess.PIPE)
+    proc = subprocess.Popen(args, **kwargs)
+    out, err = proc.communicate()
+    return out
+
+
+def run_black(filepath):
+    args = [
+        "black",
+    ]
+    args.extend(overrides)
+    args.append(filepath)
+    output = system(*args)
+
+
+def main():
+    try:
+        import black
+    except ImportError:
+        print(
+            "'black' is required. Please install with `pip install 'black[jupyter]'`.",
+            file=sys.stderr,
+        )
+        exit(1)
+
+    modified = re.compile("^[AM]+\s+(?P<name>.*\.py)", re.MULTILINE)
+    basedir = system("git", "rev-parse", "--show-toplevel").decode("utf-8").strip()
+    files = system("git", "status", "--porcelain").decode("utf-8")
+    files = modified.findall(files)
+
+    for name in files:
+        filepath = os.path.join(basedir, name)
+        run_black(filepath)
+        system("git", "add", filepath)
+
+
+if __name__ == "__main__":
+    main()

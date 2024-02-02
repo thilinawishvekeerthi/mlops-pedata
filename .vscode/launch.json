@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "dataset_upload",
+      "type": "python",
+      "request": "launch",
+      "program": "examples/dataset_upload.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "ex_dataset_update",
+      "type": "python",
+      "request": "launch",
+      "program": "examples/dataset_update.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "test_disk_cache",
+      "type": "python",
+      "request": "launch",
+      "program": "test/test_disk_cache.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

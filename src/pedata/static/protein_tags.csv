@@ -1,0 +1,151 @@
+name,sequence,method,origin,reference
+Isopep-Tag,TDKDMTITFTNKKDAE,Pilin-C covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/20235501/
+Spy-Tag,AHIVMVDAYKPTK,SpyCatcher protein covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/22366317/
+Snoop-Tag,KLGDIEFIKVNK,SnoopCatcher protein covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/26787909/
+SnoopJr-Tag,KLGSIEFIKVNK,SnoopCatcher or DogCatcher (via SnoopLigase) protein covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/29402082/
+Dog-Tag,DIPATYEFTDGKHYITNEPIPPK,DogCatcher protein covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34324879/
+Sdy-Tag,DPIVMIDNDKPIT,SdyCatcher protein covalent binding,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/27783674/
+AviTag,GLNDIFEAQKIEWHE,Binding to Streptavidin via biotinylation,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/17379573/
+Strep-Tag,WSHPQFEK,Binding to Streptavidin via biotinylation,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/8636976/
+Strep-Tag,AWAHPQPGG,Binding to Streptavidin via biotinylation,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/8636976/
+Twin-Strep-II-Tag,WSHPQFEKGSAGSAAGSGAGWSHPQFEK,Binding to  Strep-Tactin or Strep-Tactin XT,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/8636976/
+SBP-Tag,MDEKTTGWRGGHVVEGLAGELEQLRARLEHHPQGQREP,Binding to Streptavidin via biotinylation,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/11722181/
+T7-Tag,MASMTGGQQMG,Antibody affinity purification,Bacteriophage T7 major capsid protein,https://pubmed.ncbi.nlm.nih.gov/24510596/
+V5-Tag,GKPIPNPLLGLDST,Antibody affinity purification,Bacteriophage V5 major capsid protein,https://pubmed.ncbi.nlm.nih.gov/29104895/
+V5-Tag,IPNPLLGLD,Antibody affinity purification,Bacteriophage V5 major capsid protein,https://pubmed.ncbi.nlm.nih.gov/29104895/
+B-Tag,QYPALT,Antibody affinity purification,Bluetongue virus,https://pubmed.ncbi.nlm.nih.gov/6306033/
+HA-Tag,YPYDVPDYA,Antibody affinity purification,Human Influenza Virus Hemagglutinin,https://pubmed.ncbi.nlm.nih.gov/16921383/
+PA-Tag,GVAMPGAEDDVV,Antibody affinity purification,PLAG sequence of Human Podoplanin,https://pubmed.ncbi.nlm.nih.gov/24480187/
+HSV-Tag,QPELAPED,Antibody affinity purification,Herpes Simplex Virus type 1,https://pubmed.ncbi.nlm.nih.gov/30502324/
+S1-Tag,NANNPDWDF,Antibody affinity purification,Hepatitis B virus preS1 protein,https://pubmed.ncbi.nlm.nih.gov/14659901/
+VSV-Tag,YTDIEMNRLGK,Antibody affinity purification,Visucular Stomatitis Virus Envelope Glycoprotein,https://pubmed.ncbi.nlm.nih.gov/24510596/
+Rho1D4-Tag,TETSQVAPA,Antibody affinity purification,Bovine Rhodopsin,https://pubmed.ncbi.nlm.nih.gov/24943310/
+Myc-Tag,CEQKLISEEDL,Antibody affinity purification,c-Myc,https://pubmed.ncbi.nlm.nih.gov/24510596/
+Myc-Tag,EQKLISEEDL,Antibody affinity purification,c-Myc,https://pubmed.ncbi.nlm.nih.gov/24510596/
+HAT-Tag,KDHLIHNVHKEFHAHAHNK,Antibody affinity purification,Chicken Lactate Dehydrogenase,https://pubmed.ncbi.nlm.nih.gov/24510596/
+HAT-Tag,SLKDHLIHNVHKEEHAHAHNK,Antibody affinity purification,Chicken Lactate Dehydrogenase,https://pubmed.ncbi.nlm.nih.gov/24510596/
+Universal-Tag,HTTPHH,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+E-Tag,GAPVPYPDPLEPR,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/29021300/
+E2-Tag,SSTSSDFRDR,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+EE-Tag,EYMPME,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+EE-Tag,EFMPME,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+NE-Tag,TKENPRSNQEESYDDNES,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24040167/
+KT3-Tag,KPPTPPPEPET,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/8746622/
+ALFA-Tag,SRLEEELRRRLTE,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/33673130/
+FLAG-Tag,DYKDDDDK,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/11694294/
+Spot-Tag,PDRVRAVSHWSS,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/29500346/
+C-Tag,EPEA,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/20620148/
+Xpress-Tag,DLYDDDDK,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/35542178/
+ProteinC-Tag,EDQVDPRLIDGK,Antibody affinity purification,Protein C,https://pubmed.ncbi.nlm.nih.gov/19892176/
+AU1-Tag,DTYRYI,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/23015698/
+AU5-Tag,TDFYLK,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/23015698/
+SofTag1-Tag,SLAELLNAGLGGS,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24334194/
+SofTag3-Tag,TQDPSRVG,Antibody affinity purification,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24334194/
+PolyCys-Tag,CCCC,Reducing agent e.g. DTT or beta-ME,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/3142291/
+PolyGlu-Tag,EEEEEE,Anion-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24056174/
+PolyPhe-Tag,FFFFFFFFFFF,Phenyl-Sepharose or Ethylene glycolexchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/3142291/
+PolyHis-Tag,GHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34520613/
+PolyHis-Tag,GHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34520613/
+PolyHis-Tag,SHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/12427990/
+PolyHis-Tag,GSHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24316843/
+PolyHis-Tag,GSSHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34520613/
+PolyHis-Tag,GSPHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34520613/
+PolyHis-Tag,SGSHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/34520613/
+PolyHis-Tag,MMRGSHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/35886960/
+PolyHis-Tag,GSDKIHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21907284/
+PolyHis-Tag,MGSDKIHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/17656578/
+PolyHis-Tag,MNHKVHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/23989142/
+PolyHis-Tag,GGGHHHHHHGGDSWV,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/27614048/
+HisAsn-Tag,HQHQHQ,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+HisGln-Tag,HNHNHN,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRRRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyArg-Tag,RRRRRRRRRR,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyAsp-Tag,DDDDDDDDDDDDDDDDD,Cation-exchange column,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+PolyHis-Tag,HHHHHHHHHHH,Divalent Ion Chelate (Ni2+ Co2+ Cu2+ Zn2+),Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/24510596/
+Calmodulin-Tag,KRRWKKNFIAVSAANRFKKISSSGAL,Calmodulin affinity purification,Synthetic peptide,TBA
+iCap-Tag,MIKIATRKYLGKQNVYGIGVERDHNFALKNGFIAHN,Resin Capture,Intein from Nosdoc Punctiforme,https://pubmed.ncbi.nlm.nih.gov/29516483/
+S-Tag,KETAAAKFERQHMDS,Binding to S-fragment of RNase A,Ribonuclease,https://pubmed.ncbi.nlm.nih.gov/11036653/
+MBP-Fusion,KIEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQTRITK,Binding to Maltose or Maltodextrins,Maltose binding protein from E. Coli strain K12; UniprotID=P0AEX9,https://pubmed.ncbi.nlm.nih.gov/24510596/
+MBP-Fusion,KTEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPAAAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYAAGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEHAFNHGETAMTINGPWAWSNIDTSAVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELVKDPRVAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDAALAAAQTN,Binding to Maltose or Maltodextrins,Maltose binding protein from E. Coli strain K12; UniprotID=P0AEX9,https://pubmed.ncbi.nlm.nih.gov/24510596/
+ABP-Fusion,ESAKKARISEATDGLSDFLKSQTPAEDTVKSIELAEAKVLANRELDKYGVSDYHKNLINNAKTVEGVKELIDEILAALPKTDTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVD,Binding to Albumin,Residues 146–266 of the serum albumin binding protein (ABP) region from streptococcal protein G; UniprotID=P06654,https://pubmed.ncbi.nlm.nih.gov/9105627/
+ABP-Fusion,LAEAKVLANRELDKYGVSDYHKNLINNAKTVEGVKELIDEILAALP,Binding to Albumin,Residues 146–266 of the serum albumin binding protein (ABP) region from streptococcal protein G; UniprotID=P06654,https://pubmed.ncbi.nlm.nih.gov/8549831/
+SUMO-Fusion,MSDSEVNQEAKPEVKPEVKPETHINLKVSDGSSEIFFKIKKTTPLRRLMEAFAKRQGKEMDSLRFLYDGIRIQADQTPEDLDMEDNDIIEAHREQIGG,Binding to ni-NTA NI-IMAC,Small ubiquitin-like modifier based on UniProtID=Q12306,https://pubmed.ncbi.nlm.nih.gov/24510596/
+SUMO-Pro-Fusion,GSLQDSEVNQEAKPEVKPEVKPETHINLKVSDGSSEIFFKIKKTTPLRRLMEAFAKRQGKEMDSLRFLYDGIRIQADQAPEDLDMEDNDIIEAHREQIGG,Binding to ni-NTA NI-IMAC,Small ubiquitin-like modifier based on UniProtID=Q12306,https://pubmed.ncbi.nlm.nih.gov/24510596/
+SUMO-Star-Fusion,GSLQDSEVNQEAKPEVKPEVKPETHINLKVSDGSSEIFFKIKKTTPLRRLMEAFAKRQGKEMDSLTFLYDGIEIQADQAPEDLDMEDNDIIEAHREQIGG,Binding to ni-NTA NI-IMAC,Small ubiquitin-like modifier based on UniProtID=Q12306,https://pubmed.ncbi.nlm.nih.gov/24510596/
+CAT-Fusion,MQFTKIDINNWTRKEYFDHYFGNTPCTYSMTVKLDISKLKKDGKKLYPTLLYGVTTIINRHEEFRTALDENGQVGVFSEMLPCYTVFHKETETFSSIWTEFTADYTEFLQNYQKDIDAFGERMGMSAKPNPPENTFPVSMIPWTSFEGFNLNLKKGYDYLLPIFTFGKYYEEGGKYYIPLSIQVHHAVCDGFHVCRFLDELQDLLNK,Binding to Chloramphenicol,Chloramphenicol acetyltransferase; UniprotID=P22782,https://pubmed.ncbi.nlm.nih.gov/24510596/
+CBD-Fusion,AWQVNTAYTAGQLVTYNGKTYKCLQPHTSLAGWEPSNVPALWQLQ,Binding to Chitin,Chitin Binding domain from Bascillus Circulans K-12,https://pubmed.ncbi.nlm.nih.gov/9224900/
+GST-Fusion,MSPILGYWKIKGLVQPTRLLLEYLEEKYEEHLYERDEGDKWRNKKFELGLEFPNLPYYIDGDVKLTQSMAIIRYIADKHNMLGGCPKERAEISMLEGAVLDIRYGVSRIAYSKDFETLKVDFLSKLPEMLKMFEDRLCHKTYLNGDHVTHPDFMLYDALDVVLYMDPMCLDAFPKLVCFKKRIEAIPQIDKYLKSSKYIAWPLQGWQATFGGGDHPPK,Binding to Glutathione,Glutathione S Transferase; UniProtID=P08515,https://pubmed.ncbi.nlm.nih.gov/24510596/
+AP-Fusion,RTPEMPVLENRAAQGDITAPGGARRLTGDQTAALRDSLSDKPAKNIILLIGDGMGDSEITAARNYAEGAGGFFKGIDALPLTGQYTHYALNKKTGKPDYVTDSAASATAWSTGVKTYNGALGVDIHEKDHPTILEMAKAAGLATGNVSTAELQDATPAALVAHVTSRKCYGPSATSEKCPGNALEKGGKGSITEQLLNARADVTLGGGAKTFAETATAGEWQGKTLREQAQARGYQLVSDAASLNSVTEANQQKPLLGLFADGNMPVRWLGPKATYHGNIDKPAVTCTPNPQRNDSVPTLAQMTDKAIELLSKNEKGFFLQVEGASIDKQDHAANPCGQIGETVDLDEAVQRALEFAKKEGNTLVIVTADHAHASQIVAPDTKAPGLTQALNTKDGAVMVMSYGNSEEDSQEHTGSQLRIAAYGPHAANVVGLTDQTDLFYTMKAALGLK,Binding to 5-bromo-4-chloro-3-indolyl phosphate/nitro blue tetrazolium (BCIP/NBT), Residues 22- of Alkaline Phosphatase from E. Coli: UniprotID=P00634,https://pubmed.ncbi.nlm.nih.gov/2999085/
+Fc-Fusion,EPKSSDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLYITREPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK,Binding to ProteinA,Fc from Human IgG1 UniprotID=P01857,https://pubmed.ncbi.nlm.nih.gov/24510596/
+Halo-Fusion,MAEIGTGFPFDPHYVEVLGERMHYVDVGPRDGTPVLFLHGNPTSSYVWRNIIPHVAPTHRCIAPDLIGMGKSDKPDLGYFFDDHVRFMDAFIEALGLEEVVLVIHDWGSALGFHWAKRNPERVKGIAFMEFIRPIPTWDEWPEFARETFQAFRTTDVGRKLIIDQNVFIEGTLPMGVVRPLTEVEMDHYREPFLNPVDREPLWRFPNELPIAGEPANIVALVEEYMDWLHQSPVPKLLFWGTPGVLIPPAEAARLAKSLPNCKAVDIGPGLNLLQEDNPDLIGSEIARWLSTLEISG,Binding to HaloLink resin,Modified haloalkane dehalogenase UniprotID=P01857,https://pubmed.ncbi.nlm.nih.gov/24510596/
+DHFR-Fusion,MVRPLNSIVAVSQNMGIGKNGDLPWPPLRNEFKYFQRMTTTSSVEGKQNLVIMGRKTWFSIPEKNRPLKDRINIVLSRELKEPPRGAHFLAKSLDDALRLIEQPELASKVDMVWIVGGSSVYQEAMNQPGHLRLFVTRIMQEFESDTFFPEIDLGKYKLLPEYPGVLSEVQEEKGIKYKFEVYEKK,Binding to methotrexate and folate,Dihydropholate reductase,https://pubmed.ncbi.nlm.nih.gov/24510596/
+BCCP-Fusion,MDIRKIKKLIELVEESGISELEISEGEESVRISRAAPAASFPVMQQAYAAPMMQQPAQSNAAAPATVPSMEAPAAAEISGHIVRSPMVGTFYRTPSPDAKAFIEVGQKVNVGDTLCIVEAMKMMNQIEADKSGTVKAILVESGQPVEFDEPLVVIE,Binding to biotin and streptavidin,Biotin carboxyl carrier protein of acetyl-CoA carboxylase (BCCP) from E. Coli: UniprotID=P0ABD8,TBA
+CBP-Fusion,ETGWQKNDTGYWYVHSDGSYPKDKFEKINGTWYYFDSSGYMLADRWRKHTDGNWYWFDNSGEMATGWKKIADKWYYFNEEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADGTGWYYLKPDGTLADKPEFTVEPDGLITVK,Binding to choline and choline analogues such as DEAE,The C-terminal module of pneumococcal LytA autolysin; UniprotID=P06653,https://pubmed.ncbi.nlm.nih.gov/17222408/
+GBP-Fusion,CCPLHWMEHEGSCYWFSQSGKPWPEADKYCQLENSNLVVVNSLAEQNFLQTHMGSVVTWIGLTDQNGPWRWVDGTDYEKGFTHWAPKQPDNWYGHGLGGGEDCAHFTSDGRWNDDVCQRPYRWVCEM,Binding to Galactose,Carbohydrate-recognition domain (AA174-300) of the galactose-specific rat hepatic lectin: UniprotID=P49301,https://pubmed.ncbi.nlm.nih.gov/2006918/
+LacZ-Fusion,MTMITDSLAVVLQRRDWENPGVTQLNRLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRFAWFPAPEAVPESWLECDLPEADTVVVPSNWQMHGYDAPIYTNVTYPITVNPPFVPTENPTGCYSLTFNVDESWLQEGQTRIIFDGVNSAFHLWCNGRWVGYGQDSRLPSEFDLSAFLRAGENRLAVMVLRWSDGSYLEDQDMWRMSGIFRDVSLLHKPTTQISDFHVATRFNDDFSRAVLEAEVQMCGELRDYLRVTVSLWQGETQVASGTAPFGGEIIDERGGYADRVTLRLNVENPKLWSAEIPNLYRAVVELHTADGTLIEAEACDVGFREVRIENGLLLLNGKPLLIRGVNRHEHHPLHGQVMDEQTMVQDILLMKQNNFNAVRCSHYPNHPLWYTLCDRYGLYVVDEANIETHGMVPMNRLTDDPRWLPAMSERVTRMVQRDRNHPSVIIWSLGNESGHGANHDALYRWIKSVDPSRPVQYEGGGADTTATDIICPMYARVDEDQPFPAVPKWSIKKWLSLPGETRPLILCEYAHAMGNSLGGFAKYWQAFRQYPRLQGGFVWDWVDQSLIKYDENGNPWSAYGGDFGDTPNDRQFCMNGLVFADRTPHPALTEAKHQQQFFQFRLSGQTIEVTSEYLFRHSDNELLHWMVALDGKPLASGEVPLDVAPQGKQLIELPELPQPESAGQLWLTVRVVQPNATAWSEAGHISAWQQWRLAENLSVTLPAASHAIPHLTTSEMDFCIELGNKRWQFNRQSGFLSQMWIGDKKQLLTPLRDQFTRAPLDNDIGVSEATRIDPNAWVERWKAAGHYQAEAALLQCTADTLADAVLITTAHAWQHQGKTLFISRKTYRIDGSGQMAITVDVEVASDTPHPARIGLNCQLAQVAERVNWLGLGPQENYPDRLTAACFDRWDLPLSDMYTPYVFPSENGLRCGTRELNYGPHQWRGDFQFNISRYSQQQLMETSHRHLLHAEEGTWLNIDGFHMGIGGDDSWSPSVSAEFQLSAGRYHYQLVWCQK,Binding to APTG in borate buffer,Beta-galactosidase from E.Coli strain K12; UniprotID=P00722,https://pubmed.ncbi.nlm.nih.gov/24510596/
+ProteinA-Fusion,MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDNNKPGKEDNNKPGKEDNNKPGKEDNNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL,Binding to immunoglobulins,Immunoglobulin G-binding protein A; UniprotID=P02976,https://pubmed.ncbi.nlm.nih.gov/10805799/
+ProteinG-Fusion,MEKEKKVKYFLRKSAFGLASVSAAFLVGSTVFAVDSPIEDTPIIRNGGELTNLLGNSETTLALRNEESATADLTAAAVADTVAAAAAENAGAAAWEAAAAADALAKAKADALKEFNKYGVSDYYKNLINNAKTVEGIKDLQAQVVESAKKARISEATDGLSDFLKSQTPAEDTVKSIELAEAKVLANRELDKYGVSDYHKNLINNAKTVEGVKELIDEILAALPKTDTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTEKPEVIDASELTPAVTTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTEMVTEVPGDAPTEPEKPEASIPLVPLTPATPIAKDDAKKDDTKKEDAKKPEAKKDDAKKAETLPTTGEGSNPFFTAAALAVMAGAGALAVASKRKED,Binding to immunoglobulins,Immunoglobulin G-binding protein G; UniprotID=P06654,https://pubmed.ncbi.nlm.nih.gov/1985908/
+Streptavidin-Fusion,DPSKDSKAQVSAAEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAASIDAAKKAGVNNGNPLDAVQQ,Binding to Biotin,Streptavidin from Streptomyces avidinii; UniprotID=P22629,https://pubmed.ncbi.nlm.nih.gov/28234007/
+T7-Fusion,MASMTGGQQMGTNQGKGVVAAGDKLALFLKVFGGEVLTAFARTSVTTSRHMVRSISSGKSAQFPVLGRTQAAYLAPGENLDDKRKDIKHTEKVITIDGLLTADVLIYDIEDAMNHYDVRSEYTSQLGESLAMAADGAVLAEIAGLCNVESKYNENIEGLGTATVIETTQNKAALTDQVALGKEIIAALTKARAALTKNYVPAADRVFYCDPDSYSAILAALMPNAANYAALIDPEKGSIRNVMGFEVVEVPHLTAGGAGT,Major capsid protein of Escherichia phage T7; UniprotID=P19726,https://pubmed.ncbi.nlm.nih.gov/9178559/
+TrpE-Fusion,HQLCGDRPATLLLESADIDSKDDLKSLLLVDSALRITALGDTVTIQALSGNGEALLALLDNALPAGVESEQSPNCRVLRFPPVSPLLDEDARLCSLSVFDAFRLLQNLLNVPKEEREAMFFGGLFSYDLVAGFEDLPQLSAENNCPDFCFYLAETLMVIDHQKKSTRIQASLFAPNEEEKQRLTARLNELRQQLTEAAPPLPVVSVPHMRCECNQSDEEFGGVVRLLQKAIRAGE,Hydrophobic chromatography purification,Anthranilate synthase component 1 from E. Coli strain K12; UniprotID=P00895,https://pubmed.ncbi.nlm.nih.gov/24076468/
+Thioreduxin-Fusion,MVKQIESKTAFQEALDAAGDKLVVVDFSATWCGPCKMIKPFFHSLSEKYSNVIFLEVDVDDCQDVASECEVKCMPTFQFFKKGQKVGEFSGANKEKLEATINELV,Metal Chelate Affinity Chromatography,Human Thioreduxin; UniprotID=P10599,https://pubmed.ncbi.nlm.nih.gov/12536251/
+Thioreduxin-Fusion,MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLA,Metal Chelate Affinity Chromatography,E. Coli Thioreduxin; UniprotID=P0AA25,https://pubmed.ncbi.nlm.nih.gov/12536251/
+NusA-Fusion,MNKEILAVVEAVSNEKALPREKIFEALESALATATKKKYEQEIDVRVQIDRKSGDFDTFRRWLVVDEVTQPTKEITLEAARYEDESLNLGDYVEDQIESVTFDRITTQTAKQVIVQKVREAERAMVVDQFREHEGEIITGVVKKVNRDNISLDLGNNAEAVILREDMLPRENFRPGDRVRGVLYSVRPEARGAQLFVTRSKPEMLIELFRIEVPEIGEEVIEIKAAARDPGSRAKIAVKTNDKRIDPVGACVGMRGARVQAVSTELGGERIDIVLWDDNPAQFVINAMAPADVASIVVDEDKHTMDIAVEAGNLAQAIGRNGQNVRLASQLSGWELNVMTVDDLQAKHQAEAHAAIDTFTKYLDIDEDFATVLVEEGFSTLEELAYVPMKELLEIEGLDEPTVEALRERAKNALATIAQAQEESLGDNKPADDLLNLEGVDRDLAFKLAARGVCTLEDLAEQGIDDLADIEGLTDEKAGALIMAARNICWFGDEA,Increased Solubility,Transcription termination/anti-termination protein NusA; UniprotID=P0AFF6,https://pubmed.ncbi.nlm.nih.gov/24942647/
+TEV-Protease-Cleavage,ENLYFQS,Recognition site for cleavage by TEV Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+TEV-Protease-Cleavage,ENLYFQG,Recognition site for cleavage by TEV Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+RhinoVirus-3C-Cleavage,LEVLFQ,Recognition site for cleavage by RhinoVirus 3C Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+RhinoVirus-3C-Cleavage,LEVLFQGP,Recognition site for cleavage by RhinoVirus 3C Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+RhinoVirus-3C-Cleavage,ETLFQGP,Recognition site for cleavage by RhinoVirus 3C Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+Enteropeptidase-Cleavage,DDDDK,Recognition site for cleavage by Enteropeptidase,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+Enteropeptidase-Cleavage,DDDDR,Recognition site for cleavage by Enteropeptidase,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+Thrombin-Cleavage,LVPRGS,Recognition site for cleavage by Thrombin,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+Thrombin-Cleavage,LVPRGF,Recognition site for cleavage by Thrombin,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+FactorXa-Cleavage,IEGR,Recognition site for cleavage by Factor Xa,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+FactorXa-Cleavage,IDGR,Recognition site for cleavage by Factor Xa,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/21871965/
+Sp1b-Cleavage,WELQ,Recognition site for cleavage by Sp1b,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/27614048/
+Sp1b-Cleavage,GGWELQ,Recognition site for cleavage by Sp1b,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/27614048/
+PreScission-Cleavage,LGVLFQGP,Recognition site for cleavage by PreScission Protease,Synthetic peptide,https://pubmed.ncbi.nlm.nih.gov/20978970/
+Human-OSM-Leader,MGVLLTQRTLLSLVLALLFPSMASM,Secretion,Human-OSM,TBA
+VSV-G-Leader,MKCLLYLAFLFIGVNC,Secretion,VSV-G,TBA
+Mouse-Ig-Kappa-Leader,METDTLLLWVLLLWVPGSTGD,Secretion,Mouse Ig Kappa,TBA
+Mouse-Ig-Kappa-Leader,METDTLLLWVLLLWVPGSTG,Secretion,Mouse Ig Kappa,TBA
+Mouse-Ig-Heavy-Leader,MGWSCIILFLVATATGVHS,Secretion,Mouse Ig Heavy,TBA
+BM40-Leader,MRAWIFFLLCLAGRALA,Secretion,BM40,TBA
+Secrecon-Leader,MWWRLWWLLLLLLLLWPMVWA,Secretion,Secrecon,TBA
+Human-IgKVIII-Leader,MDMRVPAQLLGLLLLWLRGARC,Secretion,Human IgKVIII,TBA
+CD33-Leader,MPLLLLLPLLWAGALA,Secretion,CD33,TBA
+tPA-Leader,MDAMKRGLCCVLLLCGAVFVSPS,Secretion,tPA,TBA
+Human-Chymotrypsinogen-Leader,MAFLWLLSCWALLGTTFG,Secretion,Human Chymotrypsinogen,TBA
+Human-trypsinogen-2-Leader,MNLLLILTFVAAAVA,Secretion,Human trypsinogen-2,TBA
+Human-IL-2-Leader,MYRMQLLSCIALSLALVTNS,Secretion,Human Inter-Leukin-2,TBA
+Gaussia-luc-Leader,MGVKVLFALICIAVAEA,Secretion,Gaussia luc,TBA
+Albumin-HSA-Leader,MKWVTFISLLFSSAYS,Secretion,Albumin(HSA),TBA
+IH-Leader,MKTIIALSYIFCLVLG,Secretion,Influenza Haemagglutinin,TBA
+Human-Insulin-Leader,MALWMRLLPLLALLALWGPDPAAA,Secretion,Human Insulin,TBA
+Silkworm-Fibroin-LC-Leader,MKPIFLVLLVVTSAYA,Secretion,Silkworm Fibroin LC,TBA
+Honeybee-Melittin-Leader,MKFLVNVALVFMVVYISYIYA,Secretion,Silkworm Fibroin LC,TBA

@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# This hook is called before a push is made.
+# It 
+#   * runs pytest tests including estimation of test coverage
+#   * checks the exit status of pytest
+#   * allows the push if the tests pass
+
+SOURCE_DIR=src/pedata
+REPORTING_DIR=code_health
+
+TEST_COV=$REPORTING_DIR/test_coverage
+TEST_COV_XML=$TEST_COV.xml
+TEST_REPORT=$REPORTING_DIR/test_report
+TEST_REPORT_HTML=$TEST_REPORT.html
+TEST_REPORT_XML=$REPORTING_DIR/test_report.xml
+
+# Run the tests
+pytest --junit-xml=$TEST_REPORT_XML --html=$TEST_REPORT_HTML --self-contained-html --cov=$SOURCE_DIR --cov-report=html:$TEST_COV --cov-report=xml:$TEST_COV_XML test
+
+# Check the exit status of pytest
+if [ $? -ne 0 ]; then
+    echo "Tests failed. Push rejected."
+    exit 1
+fi
+
+# If the tests pass, allow the push
+exit 0
