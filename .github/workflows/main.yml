@@ -1,0 +1,85 @@
+name: Lint & PyTest on action
+permissions:
+  contents: read
+  issues: read
+  checks: write
+  pull-requests: write
+
+on: 
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  push:  
+    branches:
+      - main
+
+jobs:
+  run:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.11"]
+
+    steps:
+      # Checkout codebase
+      - name: Checkout code...
+        uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+
+      # Black formatter execution
+      - name: Check files using the black formatter
+        id: action_black
+        uses: psf/black@stable
+        with:
+          options: "--pyi --safe --verbose"
+          src: "./src"
+          jupyter: true
+          
+      # Ruff linter execution
+      - name: Check files using the Ruff linter
+        uses: chartboost/ruff-action@v1
+        with:
+          args: "--fix --no-unsafe-fixes --no-cache"
+
+      # Setup Python environtment & PyTest
+      - name: Setup & execute PyTest
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+      
+      - name: Configure dependancies & Run PyTest
+        run: |
+          pip install .
+          pip install pytest pytest-cov pytest-html
+          pip install datasets==2.15.0
+          pip list
+          pytest -s -v test --junitxml=test-results.xml
+
+      # Comment test result on commmit
+      - name: Publish Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        with:
+          files: test-results.xml     
+
+      # Commit & push changes
+      - name: Check for modified files
+        id: git-check
+        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+      - name: Commit changes
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add changes"
+      - name: Push changes
+        if: steps.git-check.outputs.modified == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
+          github_token: ${{ github.token }}
+          force: true
