@@ -1,8 +1,8 @@
 repos:
--   repo: https://github.com/psf/black
-    rev: 22.10.0
-    hooks:
-    -   id: black
+# -   repo: https://github.com/psf/black
+#     rev: 22.10.0
+#     hooks:
+#     -   id: black
 #         disabled: true
 # -   repo: https://github.com/astral-sh/ruff-pre-commit
 #     rev: v0.1.14

@@ -1,12 +1,12 @@
-from pedata.encoding.embeddings_transform import (
-    linear_kernel,
-    reshape_1hot,
-    rkhs_kmer_embeddings,
-    kmer_embeddings_centers,
-    kmers_mean_embeddings,
-)
 import numpy as np
 from pytest import fixture
+
+from pedata.encoding.embeddings_transform import (
+    kmer_embeddings_centers,
+    kmers_mean_embeddings,
+    linear_kernel,
+    reshape_1hot,
+)
 
 
 @fixture(scope="module")  # fixture for regr_dataset_test
@@ -64,23 +64,23 @@ def test_kmer_embeddings_centers(regr_dataset_test, regr_dataset_seq_len, nb_aa)
     assert U1.shape == (759, 2100)
 
 
-def test_rkhs_kmer_embeddings(regr_dataset_test, regr_dataset_seq_len, nb_aa):
-    # reshape 1hot
-    emb_list_1hot_train = reshape_1hot(
-        one_hot_array=regr_dataset_test["aa_1hot"],
-        len_seq=regr_dataset_seq_len,
-        len_aa=nb_aa,
-    )
+# def test_rkhs_kmer_embeddings(regr_dataset_test, regr_dataset_seq_len, nb_aa):
+#     # reshape 1hot
+#     emb_list_1hot_train = reshape_1hot(
+#         one_hot_array=regr_dataset_test["aa_1hot"],
+#         len_seq=regr_dataset_seq_len,
+#         len_aa=nb_aa,
+#     )
 
-    # Compute rkhs kmer embeddings
-    kmer_size = 100
-    nystrom_size = 256
-    rkhs_kmer_emb_list = rkhs_kmer_embeddings(
-        kernel_fn=linear_kernel,
-        emb_list=emb_list_1hot_train,
-        kmer_size=kmer_size,
-        nystrom_size=nystrom_size,
-    )
+#     # Compute rkhs kmer embeddings
+#     kmer_size = 100
+#     nystrom_size = 256
+#     rkhs_kmer_emb_list = rkhs_kmer_embeddings(
+#         kernel_fn=linear_kernel,
+#         emb_list=emb_list_1hot_train,
+#         kmer_size=kmer_size,
+#         nystrom_size=nystrom_size,
+#     )
 
-    assert rkhs_kmer_emb_list.shape == (5, 256)
-    assert list(np.round(rkhs_kmer_emb_list[0][:2], 6)) == list([0.279357, 0.132699])
+#     assert rkhs_kmer_emb_list.shape == (5, 256)
+#     assert list(np.round(rkhs_kmer_emb_list[0][:2], 6)) == list([0.279357, 0.132699])

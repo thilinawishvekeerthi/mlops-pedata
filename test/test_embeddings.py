@@ -125,9 +125,7 @@ def test_ankh_valid_input(ankh: Ankh, valid_input_sequences: list[str]):
         valid_input_sequences (list): valid input sequences
     """
     transformed_sequences = ankh.transform(valid_input_sequences)
-    assert round(transformed_sequences[-1][-1][-1], 3) == round(
-        -0.0032451250590384007, 3
-    )
+    assert round(transformed_sequences[-1][-1][-1], 3) == round(-0.0032451250590384007, 3)
 
 
 def test_ankh_on_dataset(ankh: Ankh, regr_dataset: Dataset):

@@ -579,10 +579,8 @@ class TestMutation:
         )
         # with only_perfect_matches=True this raises an exception
         with pytest.raises(Exception):
-            Mutation.estimate_offset(
-                dataset, parent=parent_seq, only_perfect_matches=True
-            )["offset"][0] == 0
-
+            Mutation.estimate_offset(dataset, parent=parent_seq, only_perfect_matches=True)["offset"][0] == 0
+        
         # with most_likely=True this raises an exception
         with pytest.raises(Exception):
             Mutation.estimate_offset(dataset, parent=parent_seq, most_likely=True)
@@ -632,7 +630,7 @@ class TestMutation:
 
     def test_estimate_offset_ambiguous(self):
         # Test case where the offset cannot be estimated automatically
-        # parent_seq = "MEAPLSHV"
+        #parent_seq = "MEAPLSHV"
         parent_seq = "AAAAAAAA"
         dataset = ds.Dataset.from_dict(
             {
@@ -641,7 +639,7 @@ class TestMutation:
                 "target foo": [1, 2],
             }
         )
-
+        
         # with most_likely=True this raises an exception
         with pytest.raises(Exception):
             Mutation.estimate_offset(dataset, parent=parent_seq, most_likely=True)
